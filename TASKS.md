@@ -1,0 +1,17 @@
+- [x] 01. Inspect environment, create requirements.txt with the stack above
+- [x] 02. Extract IPC->BNS mapping to data/ipc_bns_mapping.json
+- [x] 03. Implement PDF extraction and section chunker in src/ingest.py (illustrations, explanations, exceptions, sub-sections stay in chunk)
+- [x] 04. Spot-check: print 15 random parsed sections compactly (CHECKPOINT: show me, continue unless I report a problem)
+- [x] 05. Write data/remedies.md (25-30 chunks, each tied to a real BNSS section looked up in the parsed BNSS)
+- [x] 06. Build Chroma embeddings and BM25 indices (offences, procedures)
+- [x] 07. Query analyzer with IPC/BNS ambiguity rule and LLM call (src/analyze.py)
+- [x] 08. Hybrid search with RRF (src/retrieve.py)
+- [x] 09. Cross-encoder reranker, return top ~8 chunks
+- [x] 10. Grounded answer generation: JSON schema, safety rules, "not found in the loaded law text" fallback (src/answer.py)
+- [x] 11. Code-based citation verification (src/verify.py)
+- [x] 12. Write eval/test_cases.json (40 cases), then show me 10 cases with expected sections for review (CHECKPOINT: continue unless I report a problem)
+- [x] 13. Run eval once, fix only obvious bugs, re-run at most twice, save eval/results.md — 80%/80% (up from 70%/62.5%)
+- [x] 14. Streamlit UI (app.py): section cards, source text, steps, disclaimer
+- [x] 15. End-to-end check (CLI + Streamlit): 5 scenarios pass, all citations verified
+- [x] 16. Add .gitignore (.env, Chroma DB folder, model caches); confirm no hardcoded API key
+- [x] 17. Write README.md (Mermaid diagram, setup, eval results, limitations)

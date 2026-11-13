@@ -1,0 +1,304 @@
+[
+  {
+    "id": 1,
+    "type": "question",
+    "query": "punishment for cheating under BNS?",
+    "expected_bns_sections": ["318"],
+    "description": "Direct question on cheating under BNS"
+  },
+  {
+    "id": 2,
+    "type": "question",
+    "query": "what is punishment for 420 IPC in new law?",
+    "expected_bns_sections": ["318"],
+    "description": "Direct question with legacy IPC 420 section reference"
+  },
+  {
+    "id": 3,
+    "type": "question",
+    "query": "what is the punishment for murder under BNS?",
+    "expected_bns_sections": ["103"],
+    "description": "Direct question on murder punishment"
+  },
+  {
+    "id": 4,
+    "type": "question",
+    "query": "what is the punishment for theft under section 303 BNS?",
+    "expected_bns_sections": ["303"],
+    "description": "Direct question on theft punishment under BNS 303"
+  },
+  {
+    "id": 5,
+    "type": "question",
+    "query": "what is the offence of snatching in BNS and its punishment?",
+    "expected_bns_sections": ["304"],
+    "description": "Direct question on newly defined offence of snatching"
+  },
+  {
+    "id": 6,
+    "type": "question",
+    "query": "what is the punishment for criminal breach of trust under BNS?",
+    "expected_bns_sections": ["316"],
+    "description": "Direct question on criminal breach of trust"
+  },
+  {
+    "id": 7,
+    "type": "question",
+    "query": "what constitutes extortion under BNS?",
+    "expected_bns_sections": ["308"],
+    "description": "Direct question on extortion definition and penalties"
+  },
+  {
+    "id": 8,
+    "type": "question",
+    "query": "what constitutes robbery under BNS?",
+    "expected_bns_sections": ["309"],
+    "description": "Direct question on robbery under BNS"
+  },
+  {
+    "id": 9,
+    "type": "question",
+    "query": "what is the punishment for criminal intimidation under BNS?",
+    "expected_bns_sections": ["351"],
+    "description": "Direct question on criminal intimidation"
+  },
+  {
+    "id": 10,
+    "type": "question",
+    "query": "what is the section for stalking a woman under BNS?",
+    "expected_bns_sections": ["78"],
+    "description": "Direct question on stalking under BNS"
+  },
+  {
+    "id": 11,
+    "type": "question",
+    "query": "what is the offence and punishment for defamation in BNS?",
+    "expected_bns_sections": ["356"],
+    "description": "Direct question on defamation under BNS"
+  },
+  {
+    "id": 12,
+    "type": "question",
+    "query": "what is section 302?",
+    "expected_bns_sections": ["103", "302"],
+    "description": "Ambiguous bare number: IPC 302 murder (BNS 103) vs BNS 302 religious feelings"
+  },
+  {
+    "id": 13,
+    "type": "situation",
+    "query": "My purse was stolen from my handbag while I was riding the metro train",
+    "expected_bns_sections": ["303", "305"],
+    "description": "Theft in public transport / conveyance"
+  },
+  {
+    "id": 14,
+    "type": "situation",
+    "query": "Two men on a motorcycle zoomed past and snatched the gold chain off my neck",
+    "expected_bns_sections": ["304"],
+    "description": "Chain snatching on road"
+  },
+  {
+    "id": 15,
+    "type": "situation",
+    "query": "Three armed men entered our jewelry shop, pointed a gun at the cashier, and took 5 lakh rupees cash from the till",
+    "expected_bns_sections": ["309", "311"],
+    "description": "Robbery with deadly weapon"
+  },
+  {
+    "id": 16,
+    "type": "situation",
+    "query": "I paid 50000 rupees to an online seller for a smartphone, but after receiving money he blocked me and never delivered anything",
+    "expected_bns_sections": ["318"],
+    "description": "Online payment fraud and cheating"
+  },
+  {
+    "id": 17,
+    "type": "situation",
+    "query": "I gave my car to my friend for a weekend trip, but he sold it to a third party without my knowledge and kept the money",
+    "expected_bns_sections": ["316"],
+    "description": "Criminal breach of trust with entrusted property"
+  },
+  {
+    "id": 18,
+    "type": "situation",
+    "query": "A man has been following my sister home every day from her workplace and sending repeated unsolicited messages on Instagram",
+    "expected_bns_sections": ["78"],
+    "description": "Physical and electronic stalking of a woman"
+  },
+  {
+    "id": 19,
+    "type": "situation",
+    "query": "My neighbor unlawfully entered my private courtyard with an iron rod and threatened to kill my family",
+    "expected_bns_sections": ["329", "351"],
+    "description": "Criminal trespass and criminal intimidation"
+  },
+  {
+    "id": 20,
+    "type": "situation",
+    "query": "During a dispute over parking, a man hit my father with a baseball bat and fractured his forearm",
+    "expected_bns_sections": ["115", "117", "118"],
+    "description": "Voluntarily causing hurt and grievous hurt with weapon"
+  },
+  {
+    "id": 21,
+    "type": "situation",
+    "query": "My business partner forged my signature on company bank cheques and withdrew 10 lakh rupees from our joint account",
+    "expected_bns_sections": ["316", "318", "336", "338"],
+    "description": "Forgery of valuable security and criminal breach of trust"
+  },
+  {
+    "id": 22,
+    "type": "situation",
+    "query": "A mob surrounded my parked car, smashed the windshield with stones and scratched the doors causing heavy damage",
+    "expected_bns_sections": ["324"],
+    "description": "Mischief causing damage to property"
+  },
+  {
+    "id": 23,
+    "type": "situation",
+    "query": "A colleague posted defamatory remarks on LinkedIn falsely accusing me of financial embezzlement and fraud",
+    "expected_bns_sections": ["356"],
+    "description": "Defamation on social media"
+  },
+  {
+    "id": 24,
+    "type": "situation",
+    "query": "Someone called posing as a bank executive, fraudulently induced me to give my OTP, and drained 1 lakh rupees",
+    "expected_bns_sections": ["318", "319"],
+    "description": "Cheating by personation and online fraud"
+  },
+  {
+    "id": 25,
+    "type": "situation",
+    "query": "A local goon demanded 20,000 rupees monthly extortion money, threatening to burn down my grocery store if I refuse",
+    "expected_bns_sections": ["308"],
+    "description": "Extortion by putting person in fear of injury/property damage"
+  },
+  {
+    "id": 26,
+    "type": "situation",
+    "query": "A tenant refused to vacate my apartment after tenancy ended, changed locks, and forcefully prevented me from entering",
+    "expected_bns_sections": ["329", "126"],
+    "description": "Criminal trespass and wrongful restraint"
+  },
+  {
+    "id": 27,
+    "type": "situation",
+    "query": "A customer in my restaurant got angry over the bill and slapped the waiter across the face",
+    "expected_bns_sections": ["115", "131"],
+    "description": "Voluntarily causing simple hurt and assault"
+  },
+  {
+    "id": 28,
+    "type": "situation",
+    "query": "The police station officer refused to register an FIR when I went to report my stolen motorcycle",
+    "expected_bns_sections": ["303"],
+    "description": "Vehicle theft with police refusal remedy"
+  },
+  {
+    "id": 29,
+    "type": "situation",
+    "query": "A gym owner installed a hidden spy camera in the female trial room and captured private photos of women",
+    "expected_bns_sections": ["77"],
+    "description": "Voyeurism capturing images of woman in private act"
+  },
+  {
+    "id": 30,
+    "type": "situation",
+    "query": "Two men snatched my sister's handbag and shoved her to the ground causing severe abrasions on her hands and knees",
+    "expected_bns_sections": ["304", "309", "115"],
+    "description": "Snatching accompanied by hurt elevating towards robbery"
+  },
+  {
+    "id": 31,
+    "type": "situation",
+    "query": "An unknown fraudster created a fake profile in my name with my photo on WhatsApp and messaged my contacts asking for emergency money",
+    "expected_bns_sections": ["318", "319"],
+    "description": "Cheating by personation using digital profile"
+  },
+  {
+    "id": 32,
+    "type": "situation",
+    "query": "Our domestic servant stole diamond jewelry worth 3 lakh rupees from the master bedroom and disappeared",
+    "expected_bns_sections": ["303", "306"],
+    "description": "Theft by clerk or servant of property in possession of master"
+  },
+  {
+    "id": 33,
+    "type": "situation",
+    "query": "A man falsely promised marriage to a woman concealing his existing marriage, engaged in sexual relations, and then refused marriage",
+    "expected_bns_sections": ["69"],
+    "description": "Sexual intercourse by deceitful means or false promise to marry"
+  },
+  {
+    "id": 34,
+    "type": "situation",
+    "query": "A speeding driver ran over a cyclist at night, fled the scene without reporting to police or helping the injured person who later died",
+    "expected_bns_sections": ["106", "281"],
+    "description": "Rash driving and causing death by negligence / hit-and-run"
+  },
+  {
+    "id": 35,
+    "type": "situation",
+    "query": "A gang of five men broke into a farmhouse at night with knives, tied up the residents, and looted cash and gold",
+    "expected_bns_sections": ["310", "311"],
+    "description": "Dacoity committed by five or more persons"
+  },
+  {
+    "id": 36,
+    "type": "situation",
+    "query": "A stalker threw chemical acid on a young woman's face causing severe permanent disfigurement",
+    "expected_bns_sections": ["124"],
+    "description": "Acid attack causing permanent or partial damage/deformity"
+  },
+  {
+    "id": 37,
+    "type": "situation",
+    "query": "A warehouse manager who was entrusted with 500 bags of wheat misappropriated them and sold them in the black market",
+    "expected_bns_sections": ["316"],
+    "description": "Criminal breach of trust by warehouse keeper or merchant"
+  },
+  {
+    "id": 38,
+    "type": "situation",
+    "query": "A co-passenger on a bus inappropriately grabbed a woman and used vulgar sexual language towards her",
+    "expected_bns_sections": ["74", "75", "79"],
+    "description": "Assault or criminal force to woman with intent to outrage modesty"
+  },
+  {
+    "id": 39,
+    "type": "situation",
+    "query": "A builder took 25 lakh rupees as booking advance for a residential flat, never began construction, and fled",
+    "expected_bns_sections": ["318"],
+    "description": "Cheating and dishonestly inducing delivery of money"
+  },
+  {
+    "id": 40,
+    "type": "situation",
+    "query": "I am being falsely threatened with a complaint under section 420 IPC and section 406 IPC, what are the corresponding BNS sections?",
+    "expected_bns_sections": ["318", "316"],
+    "description": "Legacy IPC 420 (cheating) and IPC 406 (CBT) translation to BNS"
+  },
+  {
+    "id": 41,
+    "type": "situation",
+    "query": "My landlord refused to refund my security deposit of 50,000 rupees after I vacated the rental flat even though there was no damage",
+    "expected_bns_sections": ["316", "318", "314"],
+    "description": "Landlord withholding rental security deposit - civil recovery vs criminal breach of trust"
+  },
+  {
+    "id": 42,
+    "type": "situation",
+    "query": "A customer accidentally left their bag on a chair in my shop, and an employee took it and sold the contents instead of returning it",
+    "expected_bns_sections": ["314", "303", "316"],
+    "description": "Bag left behind in shop - dishonest misappropriation by finder/custodian"
+  },
+  {
+    "id": 43,
+    "type": "situation",
+    "query": "I was contacted on Telegram for a part-time online data entry job, paid 15,000 rupees as registration and training fees, and then they blocked me without giving any work",
+    "expected_bns_sections": ["318", "319"],
+    "description": "Online job scam inducing payment of fake registration fees - cheating by personation"
+  }
+]
+
